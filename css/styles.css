@@ -73,10 +73,10 @@ body {
 .button-close:active,
 .button-close:focus {	
 	opacity: 1; 
-	border: 2px solid transparent; 
-	border-image: linear-gradient(to bottom, #538fff, #867bc6); 
+	border: 4px solid transparent; 
+	border-image: linear-gradient(to bottom, #ffffff, #867bc6); 
 	border-image-slice: 1;
- 	box-shadow: inset 0 0 15px rgba(255,255,255,0.5);
+ 	box-shadow: inset  0 15px rgba(255,255,255,0.5);
 	-webkit-transition: all .5s ease;
 	   -moz-transition: all .5s ease;
 	    -ms-transition: all .5s ease;
@@ -122,6 +122,17 @@ body {
 	font-weight: 400;
 	margin-right: 10px;	
 }
+.input-email:hover,
+.input-email:active,
+.input-email:focus {		
+	background: linear-gradient(to bottom right, #ffffff, #538fff);
+	box-shadow: 3px 4px 3px 4px #867bc6;
+	-webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+	    -ms-transition: all .25s ease;
+	     -o-transition: all .25s ease;
+	        transition: all .25s ease;
+} 
 
 .button-subscribe {
 	vertical-align: top;
@@ -147,7 +158,7 @@ body {
 .button-subscribe:focus {		
 	text-decoration: underline;
 	color: #353a45;
-	background: linear-gradient(to bottom right, #538fff, #867bc6);
+	background: linear-gradient(to bottom right, #ffffff, #538fff);
 	box-shadow: 3px 4px 3px 4px #867bc6;
 	-webkit-transition: all .25s ease;
 	   -moz-transition: all .25s ease;
